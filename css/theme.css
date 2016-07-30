@@ -550,9 +550,6 @@ ul.lead li {
 .bg-secondary {
   background: #f8f8f8;
 }
-.bg-green {
-  background: #62AA62;
-}
 .bg-white {
   background: #fff;
 }
@@ -579,7 +576,7 @@ footer {
   overflow: hidden;
 }
 footer {
-  padding: 10px 0;
+  padding: 72px 0;
 }
 .fullscreen {
   height: 100vh;
@@ -791,11 +788,10 @@ footer.bg-dark li,
   background: #47b475;
   color: #fff;
 }
-.btn-cerna {
-  background: #000;
-  color: #fff;
+.btn-blue {
+  background: #0000FF;
+  color: #fff !important;
 }
-
 .btn-white,
 .image-bg .btn,
 .image-bg .btn:visited {
@@ -2154,6 +2150,10 @@ button[type="submit"] .form-loading {
   background: #47b475;
   color: #fff;
 }
+.accordion-1 .active2 .title {
+  background: #0000FF;
+  color: #fff;
+}
 .accordion-1 .content {
   border: 1px solid #eee;
   border-top: none;
@@ -2176,6 +2176,9 @@ button[type="submit"] .form-loading {
 }
 .accordion-1 .active .title:hover {
   background: #47b475;
+}
+.accordion-1 .active2 .title:hover {
+  background: #0011FF;
 }
 .accordion-2 .title {
   font-size: 16px;
@@ -5055,6 +5058,9 @@ footer.bg-dark a {
 .mt8 {
   margin-top: 8px;
 }
+.mt40 {
+  margin-top: 40px;
+}
 .pt0 {
   padding-top: 0;
 }
@@ -5066,10 +5072,6 @@ footer.bg-dark a {
 }
 .pb8 {
   padding-bottom: 8px;
-}
-
-.mt64 {
-  margin-top: 64px;
 }
 
 /*! Niektoré classes pro tablety */
